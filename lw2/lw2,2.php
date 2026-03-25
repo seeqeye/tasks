@@ -8,18 +8,18 @@ $matrix = [
 
 
 $max = $matrix[0][0];
-$max_position = [0, 0];
+$maxPosition = [0, 0];
 
 
-foreach ($matrix as $row_index => $row) {
-    foreach ($row as $col_index => $element) {
+foreach ($matrix as $rowIndex => $row) {
+    foreach ($row as $colIndex => $element) {
 
         if ($element > $max) {
             $max = $element;
-            $max_position = [$row_index, $col_index];
+            $maxPosition = [$rowIndex, $colIndex];
         }
     }
 }
 
 echo "Максимум: $max\n";
-echo "Позиция: [$max_position[0]][$max_position[1]]\n";
+echo "Позиция: [$maxPosition[0]][$maxPosition[1]]\n";
