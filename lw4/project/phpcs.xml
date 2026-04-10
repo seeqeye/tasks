@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ruleset name="ProjectStandard">
+    <rule ref="PSR12"/>
+    <file>src</file>
+    <file>lw4.php</file>
+</ruleset>

@@ -1,0 +1,12 @@
+{
+    "workbench.settings.openDefaultSettings": true,
+    "json.schemaDownload.enable": true,
+    "editor.formatOnSave": true,
+    "[php]": {
+        "editor.defaultFormatter": "higoka.php-cs-fixer"
+    },
+    "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.allowRisky": true,
+    "php-cs-fixer.rules": "@PSR12,strict_comparison"
+}
